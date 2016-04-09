@@ -21,7 +21,7 @@ object Exercise {
   /**
     * Just complete this promise with a number. Have a look at what the test is doing
     */
-  def completeMyPromise(p:Promise[Int]:Unit = ???
+  def completeMyPromise(p:Promise[Int]):Unit = ???
 
   /**
     * I'm going to give you a Future[Int]. Double it and return it.
