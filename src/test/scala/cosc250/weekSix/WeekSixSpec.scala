@@ -1,6 +1,8 @@
 package cosc250.weekSix
 
 import org.scalatest._
+import flatspec._
+import matchers._
 import org.scalatest.concurrent.ScalaFutures
 
 import scala.concurrent.{Future, Promise}
@@ -11,7 +13,7 @@ import scala.concurrent.ExecutionContext.Implicits.global
   * This is a specification file for ScalaTest. It's a set of unit tests written in a way that's designed to be
   * read easily.
   */
-class WeekSixSpec extends FlatSpec with Matchers with ScalaFutures {
+class WeekSixSpec extends AnyFlatSpec with should.Matchers with ScalaFutures {
 
   import Exercise._
 

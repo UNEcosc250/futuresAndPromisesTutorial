@@ -73,8 +73,7 @@ object Exercise {
   /*
    * This stuff sets up our web client
    */
-  implicit val system = ActorSystem("Sys")
-  implicit val materializer = ActorMaterializer()
+  implicit val system:ActorSystem = ActorSystem("Sys")
   val wsClient = StandaloneAhcWSClient()
 
 
